@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/4Q_1GLiDayag.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add a Movie</h2>
+        
+        <div class="form-group">
+            <label for="title">Title:</label>
+            <input type="text" id="title" placeholder="Enter movie title">
+        </div>
+
+        <div class="form-group">
+            <label for="year">Year:</label>
+            <input type="number" id="year" placeholder="Enter release year">
+        </div>
+
+        <div class="form-group">
+            <label for="genre">Genre:</label>
+            <select id="genre">
+                <option value="Action">Action</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Sci-Fi">Sci-Fi</option>
+                <option value="Horror">Horror</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Rating:</label>
+            <div class="rating-stars" id="inputStars">
+                <span data-value="1">&#9733;</span>
+                <span data-value="2">&#9733;</span>
+                <span data-value="3">&#9733;</span>
+                <span data-value="4">&#9733;</span>
+                <span data-value="5">&#9733;</span>
+            </div>
+        </div>
+
+        <button class="add-btn" id="addMovieBtn">Add Movie</button>
+
+        <div class="movie-list-container">
+            <h2>Movie List</h2>
+            <div id="movieList">
+                </div>
+        </div>
+    </div>
+    <script src="../JS/4Q_1GLiDayag.js"></script>
+</body>
