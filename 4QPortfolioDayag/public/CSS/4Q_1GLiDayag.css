@@ -78,6 +78,19 @@ input[type="text"], input[type="number"], select {
     background-color: #fafafa;
 }
 
+.movie-item button {
+    background-color: #ffffff;
+    border: 1px solid #888;      
+    border-radius: 20px;         
+    padding: 1px 8px;            
+    cursor: pointer;
+    font-size: 10px;             
+    color: #000;
+    margin-left: 5px;            
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .static-stars {
     color: #d3d3d3;
     font-size: 16px;
