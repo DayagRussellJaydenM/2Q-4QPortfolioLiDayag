@@ -11,6 +11,7 @@ body{
   color:royalblue;
   padding: 0;
   margin: 0;
+  margin-top: 60px;
 }
 
 section, header {
@@ -25,6 +26,10 @@ Requirements for the navigation:
 nav {
     width: 100%;
     background-color: #333;
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 nav a {
@@ -35,7 +40,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a :hover {
+nav a:hover {
     background-color: #ddd;
     color: black;
 }
@@ -83,6 +88,8 @@ footer {
 }
 footer a {
   text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 .icon {
