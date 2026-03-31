@@ -118,7 +118,7 @@ Answer: The notice appears on top of the content because it has a higher z-index
     Answer: Absolute position depends on its parent element because it is positioned to the nearest ancestor. If there is no such element, then it will be positioned relative to its viewport.
     c. How do you differentiate sticky from fixed (you can research on sticky)?
     </br>
-    Answer: 
+    Answer: Position fixed is always relative to its viewport while sticky is relative to the scroll position and stays within its container.
     d. If you were designing a webpage for a school event, how might you use positioning to highlight important information? Please give concrete examples.
     </br>
-    Answer: 
+    Answer: For a school event webpage, using fixed positioning, I could ensure that the navigation bar of the webpage will always be on top regardless of scrolling. Since it is a school event, I could use sticky positioning for date headers (ex: Tuesday, March 31). This keeps the current day visible while the activities under it scroll.
